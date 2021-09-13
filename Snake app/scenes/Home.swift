@@ -40,6 +40,7 @@ struct Home: View {
                     Button(action: {withAnimation{
                         vm.timer = Timer.publish(every: vm.timeCount, on: .main, in: .common).autoconnect()
                         vm.isPlaying.toggle()
+                        vm.isSpeed=false
                     }}, label: {
                         Image(systemName: "play")
                             .font(.system(size: 50))

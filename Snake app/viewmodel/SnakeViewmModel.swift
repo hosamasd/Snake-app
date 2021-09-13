@@ -138,6 +138,7 @@ class SnakeViewmModel: ObservableObject {
 //        self.posArray.removeAll()
 
         self.foodPos = self.changeRectPos()
+        self.posArray = [CGPoint(x: 0, y: 0)]
         self.posArray[0] = self.changeRectPos()
         self.gameOver=false
         
