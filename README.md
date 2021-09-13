@@ -1,5 +1,9 @@
 # Snake-app
 
+SNAKE APP using SwiftUI
+MVVM
+
+
 demo video
 
 
