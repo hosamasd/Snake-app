@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E4375FF26EF41AD00DF0C61 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4375FE26EF41AD00DF0C61 /* ActivityIndicator.swift */; };
+		4E43760126EF420D00DF0C61 /* LanguageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E43760026EF420D00DF0C61 /* LanguageRowView.swift */; };
 		4E885D7C26EE279600C76F4E /* Snake_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E885D7B26EE279600C76F4E /* Snake_appApp.swift */; };
 		4E885D7E26EE279600C76F4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E885D7D26EE279600C76F4E /* ContentView.swift */; };
 		4E885D8026EE279700C76F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E885D7F26EE279700C76F4E /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E4375FE26EF41AD00DF0C61 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		4E43760026EF420D00DF0C61 /* LanguageRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageRowView.swift; sourceTree = "<group>"; };
 		4E885D7826EE279600C76F4E /* Snake app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snake app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E885D7B26EE279600C76F4E /* Snake_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snake_appApp.swift; sourceTree = "<group>"; };
 		4E885D7D26EE279600C76F4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 		4E885D8B26EE27A100C76F4E /* view */ = {
 			isa = PBXGroup;
 			children = (
+				4E4375FE26EF41AD00DF0C61 /* ActivityIndicator.swift */,
+				4E43760026EF420D00DF0C61 /* LanguageRowView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -177,7 +183,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E885D7E26EE279600C76F4E /* ContentView.swift in Sources */,
+				4E4375FF26EF41AD00DF0C61 /* ActivityIndicator.swift in Sources */,
 				4E885D8F26EE27B000C76F4E /* Home.swift in Sources */,
+				4E43760126EF420D00DF0C61 /* LanguageRowView.swift in Sources */,
 				4E885D7C26EE279600C76F4E /* Snake_appApp.swift in Sources */,
 				4E885D9126EE27E300C76F4E /* SnakeViewmModel.swift in Sources */,
 			);
